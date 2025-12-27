@@ -251,6 +251,7 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_VRPlusMod", function(
 		"sprint_time",
 		"sprint_time",
 		"turning_mode",
+		"smooth_turn_deadzone",
 
 		"cam_fade_distance",
 		"cam_reset_percent",

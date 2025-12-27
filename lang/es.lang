@@ -32,6 +32,8 @@
 	"vrplus_turning_mode_off": "Desactivar giro, mantiene el modo de recarga por defecto",
 	"vrplus_turning_mode_smooth": "Rotación suave",
 	"vrplus_turning_mode_snap": "Snap view rotation",
+	"vrplus_smooth_turn_deadzone": "Smooth Turn Deadzone",
+	"vrplus_smooth_turn_deadzone_desc": "Percentage of the thumbstick/trackpad below which turning will be ignored",
 	"vrplus_sprint_mode": "Carrera",
 	"vrplus_sprint_mode_desc": "Qué método usar para correr pulsando el joystick/trackpad",
 	"vrplus_sprint_mode_off": "Desactivar la carrera",

@@ -8,6 +8,7 @@ local default_data = {
 	deadzone = 10,
 	sprint_time = 0.25,
 	turning_mode = VRPlusMod.C.TURNING_SNAP,
+	smooth_turn_deadzone = 75,
 	sprint_mode = VRPlusMod.C.SPRINT_STICKY,
 	movement_controller_direction = true,
 	movement_locomotion = true,

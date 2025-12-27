@@ -34,6 +34,8 @@
 	"vrplus_turning_mode_off": "Отключить поворот, сохранить назначение использования стика/тачпада на основной руке по умолчанию",
 	"vrplus_turning_mode_smooth": "Плавный поворот обзора",
 	"vrplus_turning_mode_snap": "Резкий поворот обзора",
+	"vrplus_smooth_turn_deadzone": "Smooth Turn Deadzone",
+	"vrplus_smooth_turn_deadzone_desc": "Percentage of the thumbstick/trackpad below which turning will be ignored",
 	"vrplus_sprint_mode": "Спринт",
 	"vrplus_sprint_mode_desc": "Какой метод использования кнопки стика/тачпада должен использоваться для спринта",
 	"vrplus_sprint_mode_off": "Отключить спринт",

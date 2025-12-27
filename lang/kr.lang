@@ -32,6 +32,8 @@
 	"vrplus_turning_mode_off": "회전을 활성화 하지 않고 기본값의 무기 악세사리와 발사 방식 조작을 유지합니다.",
 	"vrplus_turning_mode_smooth": "(SMOOTH)서서히 회전하는 방식",
 	"vrplus_turning_mode_snap": "(SNAP)순간적으로 회전하는 방식",
+	"vrplus_smooth_turn_deadzone": "Smooth Turn Deadzone",
+	"vrplus_smooth_turn_deadzone_desc": "Percentage of the thumbstick/trackpad below which turning will be ignored",
 	"vrplus_sprint_mode": "전력질주",
 	"vrplus_sprint_mode_desc": "어떠한 방식으로 엄지 스틱 / 트랙패드를 누르느냐에 따라 전력질주를 할 지에 대한 설정입니다.",
 	"vrplus_sprint_mode_off": "전력질주 비활성화",

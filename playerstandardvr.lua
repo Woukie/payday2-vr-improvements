@@ -77,12 +77,12 @@ local function do_rotation(self, t, dt)
 	if not axis then return end
 
 	if mode == VRPlusMod.C.TURNING_SMOOTH then
-		local deadzone = 0.75 -- TODO add option
+		local smooth_turn_deadzone = VRPlusMod._data.smooth_turn_deadzone / 100
 
-		if math.abs(axis.x) > deadzone then
+		if math.abs(axis.x) > smooth_turn_deadzone then
 			-- Scale from nothing to 100% over the course of the active zone
-			local amt = (axis.x > 0) and (axis.x - deadzone) or (axis.x + deadzone)
-			amt = amt * 1/(1-deadzone)
+			local amt = (axis.x > 0) and (axis.x - smooth_turn_deadzone) or (axis.x + smooth_turn_deadzone)
+			amt = amt * 1/(1-smooth_turn_deadzone)
 
 			-- One full revolution per second on maxed stick
 			local delta = dt * 360 / 2 * -amt
