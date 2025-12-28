@@ -118,10 +118,12 @@ As an example, if you're looking forwards and are holding your hand out towards 
 
 Default: Enabled
 
-### Deadzone
-In percent, how much of the trackpad between the center and the edge is considered a deadzone - you will not move while your thumb/thumbstick is in that zone.
+### Deadzones
+In percent, how much of the trackpad between the center and the edge is considered a deadzone - you will not perform the action while your thumb/thumbstick is in that zone.
 
-Default: `10`%
+Defaults
+- Movement: `10`%
+- Smooth turn: `75`%
 
 ### Sprint Timer
 How long, in seconds, you have to hold down the thumbstick/trackpad to start sprinting, as opposed to jumping.
